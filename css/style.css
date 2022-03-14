@@ -655,9 +655,9 @@ text-decoration: underline;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     .container {
-        width: 390px;
+        width: 400px;
     }
     /* HEADER */
     .header__logo {
@@ -905,6 +905,11 @@ text-decoration: underline;
         bottom: -40px;
     }
 } 
+@media (max-width: 400px) {
+    .container {
+        width: 390px;
+    }
+}
 
 @media (max-width: 380px) {
 
